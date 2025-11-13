@@ -1,10 +1,12 @@
+import projectImg from "../assets/images/project1.png"
+
 const Card = (props) => {
     const { children } = props
 
     return (
         <>
-            <div className="bg-black rounded-lg w-full max-w-xs">
-                <div className="border-2 bg-white border-black rounded-lg flex flex-col justify-between -translate-x-1 -translate-y-1">
+            <div className="bg-black rounded-lg max-w-sm">
+                <div className="border-2 bg-white border-black rounded-lg flex flex-col justify-between -translate-x-1 -translate-y-1 overflow-hidden">
                     {children}
                 </div>
             </div>
@@ -16,9 +18,9 @@ const Header = () => {
     return (
         <a href="">
             <img
-                src=""
+                src={projectImg}
                 alt=""
-                className="rounded-t-lg object-contain object-center w-full h-80"
+                className="object-fill object-center w-full h-70"
             />
         </a>
     )
@@ -26,19 +28,19 @@ const Header = () => {
 
 const Body = () => {
     return (
-        <div className="h-full">
+        <div className="h-full px-3 mb-3">
             <a href="">
                 <h5 className="text-xl font-semibold tracking-tight truncate">Belajar Node js</h5>
             </a>
-            <p className="text-s line-clamp-2">TEst</p>
+            <p className="text-s line-clamp-2">Testing Cahs</p>
         </div>
     )
 }
 
 const Footer = () => {
     return (
-        <div className="flex items-center justify-between">
-            <span className="text-xl font-bold">HTML</span>
+        <div className="flex flex-wrap gap-1 px-3 mb-3">
+            <span className="inline-flex items-center rounded-md bg-black px-2 py-1 text-xs font-medium text-white inset-ring inset-ring-gray-400/20">Java</span>
         </div>
     )
 }

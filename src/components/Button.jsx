@@ -7,7 +7,7 @@ const Button = (props) => {
     } = props;
 
     return (
-        <div className="bg-black rounded-lg">
+        <div className="inline-block bg-black rounded-lg">
             <button
                 className={`py-3 px-5 font-semibold rounded-lg border-2 border-black -translate-x-1 -translate-y-1 ${classname}`}
                 type={type}

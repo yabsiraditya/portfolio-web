@@ -1,4 +1,4 @@
-const ProjectPage = () => {
+const ProjectsPage = () => {
     return (
         <>
             <div className="flex justify-center min-h-screen items-center flex-col">
@@ -8,4 +8,4 @@ const ProjectPage = () => {
     )
 }
 
-export default ProjectPage
+export default ProjectsPage
