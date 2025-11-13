@@ -1,15 +1,47 @@
+import { Squash as Hamburger } from 'hamburger-react';
+
 const Navbar = () => {
     return (
         <>
-            <nav className="py-3 fixed z-50 flex justify-center items-center w-full">
-                <div className="bg-black rounded-lg">
-                    <div className="rounded-lg bg-white border-black border-2 -translate-x-1 -translate-y-1">
-                        <ul className="flex flex-row py-3 px-9 gap-16">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Experience</li>
-                            <li>Project</li>
-                        </ul>
+            <nav className="fixed top-0 left-0 right-0 z-10 flex justify-center w-full py-3 bg-transparent">
+                <div className="container mx-auto px-5">
+                    <div className='flex items-center justify-center'>
+                        <div className="bg-black rounded-lg w-auto hidden sm:block">
+                            <div className="rounded-lg bg-white border-black border-2 -translate-x-1 -translate-y-1">
+                                <div className="flex flex-row py-3 px-9 gap-16">
+                                    <a href="#">Home</a>
+                                    <a href="#">About</a>
+                                    <a href="#">Experience</a>
+                                    <a href="#">Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="absolute top-3 right-3 sm:hidden">
+                            <div className='bg-black rounded-lg'>
+                                <div className='p-0.5 rounded-lg bg-white border-black border-2 -translate-x-1 -translate-y-1'>
+                                    <Hamburger
+                                        rounded
+                                        size={30}
+                                        onToggle={(toggled) => {
+                                            const element = document.getElementById("mobile-nav");
+                                            if (element) {
+                                                element.classList.toggle("hidden", !toggled);
+                                            }
+                                        }}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="hidden sm:hidden" id="mobile-nav">
+                    <div className='absolute top-19 right-3 w-72 bg-black rounded-lg z-20'>
+                    <div className=" bg-white border-2 border-black rounded-lg text-center flex flex-col -translate-x-1 -translate-y-1 p-3">
+                        <a href="#" className="my-3">Home</a>
+                        <a href="#" className="my-3">About</a>
+                        <a href="#" className="my-3">Experience</a>
+                        <a href="#" className="my-3">Projects</a>
+                    </div>
                     </div>
                 </div>
             </nav>
