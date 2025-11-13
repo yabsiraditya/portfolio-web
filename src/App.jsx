@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Route, Routes } from 'react-router'
 import ErrorPage from './pages/ErrorPage'
 import HomePage from './pages/HomePage'
-import ProjectPage from './pages/ProjectPage'
+import ProjectsPage from './pages/ProjectsPage'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path='*' element={<ErrorPage />} />
         <Route path='/' element={<HomePage />} />
-        <Route path='/projects' element={<ProjectPage />} />
+        <Route path='/projects' element={<ProjectsPage />} />
       </Routes>
     </>
   )
