@@ -9,10 +9,10 @@ const Navbar = () => {
                         <div className="bg-black rounded-lg w-auto hidden sm:block">
                             <div className="rounded-lg bg-white border-black border-2 -translate-x-1 -translate-y-1">
                                 <div className="flex flex-row py-3 px-9 gap-16">
-                                    <a href="#">Home</a>
-                                    <a href="#">About</a>
-                                    <a href="#">Experience</a>
-                                    <a href="#">Projects</a>
+                                    <a className='font-medium' href="#">Home</a>
+                                    <a className='font-medium' href="#">About</a>
+                                    <a className='font-medium' href="#">Experience</a>
+                                    <a className='font-medium' href="#">Projects</a>
                                 </div>
                             </div>
                         </div>
@@ -37,10 +37,10 @@ const Navbar = () => {
                 <div className="hidden sm:hidden" id="mobile-nav">
                     <div className='absolute top-19 right-3 w-72 bg-black rounded-lg z-20'>
                     <div className=" bg-white border-2 border-black rounded-lg text-center flex flex-col -translate-x-1 -translate-y-1 p-3">
-                        <a href="#" className="my-3">Home</a>
-                        <a href="#" className="my-3">About</a>
-                        <a href="#" className="my-3">Experience</a>
-                        <a href="#" className="my-3">Projects</a>
+                        <a href="#" className="my-3 font-medium">Home</a>
+                        <a href="#" className="my-3 font-medium">About</a>
+                        <a href="#" className="my-3 font-medium">Experience</a>
+                        <a href="#" className="my-3 font-medium">Projects</a>
                     </div>
                     </div>
                 </div>

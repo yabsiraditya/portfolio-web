@@ -8,6 +8,6 @@
 
 @layer utilities {
   .typed-cursor {
-    @apply text-4xl font-normal text-black;
+    @apply text-3xl font-normal text-black;
   }
 }
