@@ -7,7 +7,7 @@ import TypedWriter from "./TypedWriter/TypedWriter"
 const HeroSection = () => {
     return (
         <>
-            <section className="flex items-center min-h-screen">
+            <section id="home" className="flex items-center min-h-screen">
                 <div className="container mx-auto px-5">
                     <div className="flex flex-col-reverse lg:flex-row items-center justify-between h-full">
                         <div className="w-full lg:w-1/2 flex flex-col items-start">
