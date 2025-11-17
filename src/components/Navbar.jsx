@@ -18,10 +18,10 @@ const Navbar = () => {
                         </div>
                         <div className="absolute top-3 right-3 sm:hidden">
                             <div className='bg-black rounded-lg'>
-                                <div className='p-0.5 rounded-lg bg-white border-black border-2 -translate-x-1 -translate-y-1'>
+                                <div className='rounded-lg bg-white border-black border-2 -translate-x-1 -translate-y-1'>
                                     <Hamburger
                                         rounded
-                                        size={30}
+                                        size={28}
                                         onToggle={(toggled) => {
                                             const element = document.getElementById("mobile-nav");
                                             if (element) {

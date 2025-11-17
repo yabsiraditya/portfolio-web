@@ -8,7 +8,7 @@ const TypedWriter = () => {
         const typed = new Typed(el.current, {
             strings: [
                 'Web Developer...',
-                'Grapich Designer...',
+                'Graphic Designer...',
             ],
             typeSpeed: 80,
             backSpeed: 30,
@@ -27,7 +27,7 @@ const TypedWriter = () => {
     return (
         <>
             <div className="mb-6">
-                <span ref={el} className="text-3xl font-medium"></span>
+                <span ref={el} className="text-xl lg:text-3xl font-medium"></span>
             </div>
         </>
     )
