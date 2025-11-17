@@ -26,8 +26,9 @@ const HeroSection = () => {
                                 <li><a className="text-4xl" href=""><FontAwesomeIcon icon={faFacebookSquare} /></a></li>
                             </ul>
                         </div>
-                        <div className="w-full lg:w-1/2 flex justify-center items-center">
+                        <div className="w-full lg:w-1/2 flex justify-center items-center relative">
                             <Lanyard position={[0, 0, 13]} gravity={[0, -40, 0]} />
+                            <div id="grid" className="absolute inset-0 -z-10"></div>
                         </div>
                     </div>
                 </div>

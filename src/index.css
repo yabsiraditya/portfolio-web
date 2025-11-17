@@ -11,3 +11,17 @@
     @apply text-xl lg:text-3xl font-normal text-black;
   }
 }
+
+#grid {
+    height: auto;
+    background-image:
+        linear-gradient(to right, rgb(0, 0, 0) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(0, 0, 0) 1px, transparent 1px);
+    background-size: 4rem 4rem;
+    background-position: center center;
+    padding: 100px 0;
+
+    /* ✨ Soft mask circle */
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%);
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 70%);
+}

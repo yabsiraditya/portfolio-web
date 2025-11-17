@@ -11,7 +11,6 @@ const Navbar = () => {
                                 <div className="flex flex-row py-3 px-9 gap-16">
                                     <a className='font-medium' href="#">Home</a>
                                     <a className='font-medium' href="#">About</a>
-                                    <a className='font-medium' href="#">Experience</a>
                                     <a className='font-medium' href="#">Projects</a>
                                 </div>
                             </div>
@@ -39,7 +38,6 @@ const Navbar = () => {
                     <div className=" bg-white border-2 border-black rounded-lg text-center flex flex-col -translate-x-1 -translate-y-1 p-3">
                         <a href="#" className="my-3 font-medium">Home</a>
                         <a href="#" className="my-3 font-medium">About</a>
-                        <a href="#" className="my-3 font-medium">Experience</a>
                         <a href="#" className="my-3 font-medium">Projects</a>
                     </div>
                     </div>

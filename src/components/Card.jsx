@@ -5,7 +5,7 @@ const Card = (props) => {
 
     return (
         <>
-            <div className="bg-black rounded-lg max-w-sm">
+            <div className="bg-black rounded-lg max-w-md">
                 <div className="border-2 bg-white border-black rounded-lg flex flex-col justify-between -translate-x-1 -translate-y-1 overflow-hidden">
                     {children}
                 </div>
@@ -20,7 +20,7 @@ const Header = () => {
             <img
                 src={projectImg}
                 alt=""
-                className="object-fill object-center w-full h-70"
+                className="object-fill object-center w-full"
             />
         </a>
     )
@@ -28,7 +28,7 @@ const Header = () => {
 
 const Body = () => {
     return (
-        <div className="h-full px-3 mb-3">
+        <div className="h-full px-3 my-3">
             <a href="">
                 <h5 className="text-xl font-semibold tracking-tight truncate">Belajar Node js</h5>
             </a>

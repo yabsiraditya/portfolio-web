@@ -1,0 +1,48 @@
+import { faSquareJs } from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
+const AboutSection = () => {
+    return (
+        <>
+            <section className="flex items-center my-12">
+                <div className="container mx-auto px-5">
+                    <h2 className="text-md lg:text-lg w-fit font-medium bg-black px-3 py-1 text-white rounded-lg mb-6">About Me.</h2>
+                    <div className="flex flex-col lg:flex-row justify-between h-full">
+                        <div className="w-full lg:w-1/2 flex flex-col items-start">
+                            <p className="mb-6 font-medium text-lg">I am a recent Informatics Engineering graduate from Indraprasta PGRI University, with a strong interest in IT and Graphic Design. I enjoy learning and continue to develop my skills through regular learning. Furthermore, I possess skills in Graphic Design and am proficient in various programming languages. I am able to work effectively in a team and possess excellent communication skills.</p>
+                            <div className="bg-black rounded-lg mb-6 md:mb-0">
+                                <div className="py-2 px-3 lg:py-3 lg:px-5 bg-white rounded-lg border-2 border-black -translate-x-1 -translate-y-1">
+                                    <h1 className="font-bold text-2xl">Indraprasta PGRI University</h1>
+                                    <p className="font-medium">Informatics Engineering | September 2021 – September 2025</p>
+                                    <p>GPA: 3.68/4.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-1/2 flex-col">
+                            <h1 className="font-bold text-2xl text-center mb-6">Skills</h1>
+                            <div className="flex flex-wrap justify-center gap-3 lg:max-w-[500px] mx-auto">
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                                <FontAwesomeIcon className="text-6xl lg:text-7xl" icon={faSquareJs} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
+
+export default AboutSection
