@@ -1,5 +1,7 @@
+import { Link } from "react-router"
 import Button from "./Button"
 import Card from "./Card"
+import { getProjects } from "../assets/api/data"
 
 const ProjectSection = () => {
     return (
@@ -10,24 +12,20 @@ const ProjectSection = () => {
                         <h2 className="text-md lg:text-lg w-fit font-medium bg-black px-3 py-1 text-white rounded-lg">My Project.</h2>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-3 place-items-center gap-12">
-                        <Card>
-                            <Card.Header />
-                            <Card.Body></Card.Body>
-                            <Card.Footer></Card.Footer>
-                        </Card>
-                        <Card>
-                            <Card.Header />
-                            <Card.Body></Card.Body>
-                            <Card.Footer></Card.Footer>
-                        </Card>
-                        <Card>
-                            <Card.Header />
-                            <Card.Body></Card.Body>
-                            <Card.Footer></Card.Footer>
-                        </Card>
+                        {getProjects.length > 0 && getProjects.map((project) => (
+                            <Card key={project.id}>
+                                <Card.Header image={project.image} id={project.id} />
+                                <Card.Body name={project.title}>
+                                    {project.description}
+                                </Card.Body>
+                                <Card.Footer tech={project.tech} />
+                            </Card>
+                        ))}
                     </div>
                     <div className="flex justify-center mt-6">
-                        <Button>Show More!</Button>
+                        <Link to="/projects">
+                            <Button>Show More!</Button>
+                        </Link>
                     </div>
                 </div>
             </section>
