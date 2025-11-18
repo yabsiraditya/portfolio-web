@@ -1,4 +1,4 @@
-import errorImg from '../assets/images/404.svg'
+import errorImg from '/assets/images/404.svg'
 
 const ErrorPage = () => {
     return (

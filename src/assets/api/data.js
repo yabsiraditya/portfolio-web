@@ -36,20 +36,20 @@ export const getProjects = [
         title: "Website Undangan Digital",
         description: "Platform pembuatan undangan pernikahan online dengan fitur multiuser, katalog tema, dan pembayaran.",
         tech: ["Laravel", "TailwindCSS", "MySQL"],
-        image: "src/assets/images/projects/project1.png"
+        image: "/assets/images/projects/project1.png"
     },
     {
         id: 2,
         title: "Sistem SPK Bantuan Sosial",
         description: "Aplikasi penentuan penerima bantuan sosial menggunakan metode AHP dengan Java Swing.",
         tech: ["Java", "Swing", "AHP"],
-        image: "src/assets/images/projects/project1.png"
+        image: "/assets/images/projects/project1.png"
     },
     {
         id: 3,
         title: "Portfolio Website",
         description: "Website pribadi untuk menampilkan profil, project, dan kontak.",
         tech: ["Next.js", "TailwindCSS"],
-        image: "src/assets/images/projects/project1.png"
+        image: "/assets/images/projects/project1.png"
     }
 ];
