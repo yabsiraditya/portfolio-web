@@ -9,7 +9,7 @@ const PageProjectsSection = () => {
             <section id="projects" className="flex items-center py-12 lg:py-24">
                 <div className="container mx-auto px-5">
                     <div className="grid grid-cols-1 lg:grid-cols-3 place-items-center gap-12">
-                        {getProjects.length > 0 && getProjects.reverse().map((project) => (
+                        {getProjects.length > 0 && getProjects.map((project) => (
                             <Card key={project.id}>
                                 <Card.Header image={project.image} id={project.id} />
                                 <Card.Body name={project.title}>
