@@ -16,8 +16,12 @@ const HeroSection = () => {
                             <h1 className="text-3xl lg:text-5xl font-bold my-3">I'm {getProfile.name}</h1>
                             <TypedWriter />
                             <div className="flex flex-row gap-5 mb-5">
-                                <Button>Hire Me</Button>
-                                <Button>Download CV</Button>
+                                <a href="mailto:yabsir.aditya@gmail.com">
+                                    <Button>Hire Me</Button>
+                                </a>
+                                <a href="https://drive.google.com/file/d/1NhLeqiUjHPippIDq7w8KkOWDo8utxh2M/view?usp=sharing">
+                                    <Button>Download CV</Button>
+                                </a>
                             </div>
                             <p className="font-medium">Social Media:</p>
                             <SosmedIcon />
