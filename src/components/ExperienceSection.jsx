@@ -20,7 +20,7 @@ const ExperienceSection = () => {
                                             <h3 className="text-xl font-bold">{exp.title}</h3>
                                             <p className="text-md font-medium">{exp.place}</p>
                                             <p className="mt-2">{exp.desc}</p>
-                                            <p className="mt-3 text-sm">{exp.year}</p>
+                                            <p className="mt-3 text-sm font-medium">{exp.year}</p>
                                         </div>
                                     </div>
                                 </div>
