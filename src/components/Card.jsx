@@ -14,7 +14,7 @@ const Header = (props) => {
         <img
             src={image}
             alt=""
-            className="object-fill object-center w-full p-3 rounded-3xl h-67"
+            className="object-fill object-center w-full p-3 rounded-3xl h-50 lg:h-67"
         />
     )
 }

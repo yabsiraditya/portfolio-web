@@ -2,7 +2,6 @@ import Lanyard from "./Lanyard/Lanyard"
 import Button from "./Button"
 import TypedWriter from "./TypedWriter/TypedWriter"
 import { getProfile } from "../assets/api/data"
-import { icons } from "../assets/api/icons"
 import SosmedIcon from "./SosmedIcon"
 
 const HeroSection = () => {
