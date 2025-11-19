@@ -4,7 +4,7 @@ export const getProfile = {
     education: {
         university: "Indraprasta PGRI University",
         major: "Informatics Engineering",
-        year: "2021 September - 2025 September",
+        year: "September 2021 - September 2025",
         gpa: "3.68/4.00"
     },
     socialMedia: [
@@ -31,63 +31,75 @@ export const getProfile = {
 
 };
 
+export const getExperiences = [
+    {
+        year: "",
+        title: "Graphic Design | Freelance",
+        place: "Bogor, Indonesia",
+        desc: "I communicate with clients to understand the visual needs and goals of each project. I design various materials such as logos, posters, brochures, packaging, illustrations, web designs, and digital banners. I make revisions based on client feedback and deliver the final files in the desired format and media."
+    },
+    {
+        year: "February 2018 - April 2018",
+        title: "Quality Control | PT. Shin Han Indonesia (Intern)",
+        place: "Bogor, Indonesia",
+        desc: "I inspect product quality at various stages of production to ensure compliance with standards. I sample raw materials and semi-finished products for testing using appropriate methods and measuring instruments. I also record and compile inspection reports as part of the quality control documentation."
+    },
+    {
+        year: "August 2023 - January 2024",
+        title: "Web Developer | Hacktiv8 (MSIB)",
+        place: "Jakarta, Indonesia",
+        desc: "Saya mempelajari dasar Web Development seperti HTML, CSS, dan JavaScript melalui self-learning dan bimbingan mentor. Saya membangun fitur interaktif dengan DOM, Fetch API, dan AJAX, serta menggunakan Git/GitHub untuk kolaborasi. Saya juga mengikuti live coding dan menyelesaikan tugas individu maupun kelompok sebagai penerapan materi."
+    },
+];
+
 export const getProjects = [
     {
         id: 1,
-        title: "Website Undangan Digital",
-        description: "Platform pembuatan undangan pernikahan online dengan fitur multiuser, katalog tema, dan pembayaran.",
-        tech: ["Laravel", "TailwindCSS", "MySQL"],
-        image: "/assets/images/projects/project1.png"
+        title: "Weather App UI/UX Design",
+        description: "This project is a  weather app UI/UX that shows current conditions, hourly and daily forecasts, and an interactive UI for searching locations and viewing detailed weather data.",
+        tech: ["Figma", "UI", "UX"],
+        image: "/assets/images/projects/project82934.png"
     },
     {
         id: 2,
-        title: "Sistem SPK Bantuan Sosial",
-        description: "Aplikasi penentuan penerima bantuan sosial menggunakan metode AHP dengan Java Swing.",
-        tech: ["Java", "Swing", "AHP"],
-        image: "/assets/images/projects/project1.png"
+        title: "Card Matching Game",
+        description: "This project is a card matching game where players have to match two cards with the same picture.",
+        tech: ["HTML", "CSS", "Javascript"],
+        image: "/assets/images/projects/project12783.png"
+    },
+    {
+        id: 3,
+        title: "Front End of Shoes E-Commerce Website",
+        description: "Front-end e-commerce website to showcase shoe collections, explore categories, and view product details with a modern and responsive look.",
+        tech: ["HTML", "CSS", "Javascript", "Bootstrap"],
+        image: "/assets/images/projects/project5237.png"
     },
     {
         id: 4,
-        title: "Sistem SPK Sosial",
-        description: "Aplikasi penentuan penerima bantuan sosial menggunakan metode AHP dengan Java Swing.",
-        tech: ["Java", "Swing", "AHP"],
-        image: "/assets/images/projects/project1.png"
+        title: "Website E-Commerce Alta Bakery",
+        description: "An e-commerce website to display bakery products, search for items, view product details, and make it easier for customers to order online.",
+        tech: ["HTML", "CSS", "Javascript", "PHP", "MySQL", "Bootstrap"],
+        image: "/assets/images/projects/project23563.png"
+    },
+    {
+        id: 5,
+        title: "Posyandu Administration System Application",
+        description: "Posyandu administration application to manage user data, services, and reports, as well as simplify the process of recording and monitoring Posyandu activities.",
+        tech: ["Java", "Netbeans", "MySQL"],
+        image: "/assets/images/projects/project5982.png"
     },
     {
         id: 6,
-        title: "Sistem Bantuan Sosial",
-        description: "Aplikasi penentuan penerima bantuan sosial menggunakan metode AHP dengan Java Swing.",
-        tech: ["Java", "Swing", "AHP"],
-        image: "/assets/images/projects/project1.png"
+        title: "Application for Determining Exemplary Employees Using the AHP Method",
+        description: "The exemplary employee determination application uses the AHP method to calculate criteria weights, assess candidates, and produce objective decisions.",
+        tech: ["Java", "Netbeans", "MySQL"],
+        image: "/assets/images/projects/project72652.png"
     },
     {
-        id: 3,
-        title: "Portfolio Website",
-        description: "Website pribadi untuk menampilkan profil, project, dan kontak.",
-        tech: ["Next.js", "TailwindCSS"],
-        image: "/assets/images/projects/project1.png"
-    },
-    {
-        id: 3,
-        title: "Portfolio ",
-        description: "Website pribadi untuk menampilkan profil, project, dan kontak.",
-        tech: ["Next.js", "TailwindCSS"],
-        image: "/assets/images/projects/project1.png"
-    }
-];
-
-
-export const getExperiences = [
-    {
-        year: "2009 - 2011",
-        title: "UI/UX Designer",
-        place: "Los Angeles, CA",
-        desc: "Wireframing, Prototyping, User Testing, Product Design."
-    },
-    {
-        year: "2011 - Present",
-        title: "Creative Director",
-        place: "Miami, FL",
-        desc: "Creative Direction, User Experience, Visual Design, Project Management, Team Leading."
+        id: 7,
+        title: "Website Portfolio",
+        description: "A portfolio website with a Neobrutalism theme using React, TailwindCSS, and Three.js, showcasing projects, 3D interactions, and a modern and unique look.",
+        tech: ["React JS", "Tailwind CSS", "Three JS"],
+        image: "/assets/images/projects/project85326.png"
     },
 ];
