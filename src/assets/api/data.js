@@ -23,6 +23,7 @@ export const getProfile = {
         { name: "React", icon: "react" },
         { name: "Python", icon: "python" },
         { name: "Java", icon: "java" },
+        { name: "Github", icon: "git" },
         { name: "MySQL", icon: "mysql" },
         { name: "Figma", icon: "figma" },
         { name: "Corel Draw", icon: "corel" },
@@ -46,10 +47,47 @@ export const getProjects = [
         image: "/assets/images/projects/project1.png"
     },
     {
+        id: 4,
+        title: "Sistem SPK Sosial",
+        description: "Aplikasi penentuan penerima bantuan sosial menggunakan metode AHP dengan Java Swing.",
+        tech: ["Java", "Swing", "AHP"],
+        image: "/assets/images/projects/project1.png"
+    },
+    {
+        id: 6,
+        title: "Sistem Bantuan Sosial",
+        description: "Aplikasi penentuan penerima bantuan sosial menggunakan metode AHP dengan Java Swing.",
+        tech: ["Java", "Swing", "AHP"],
+        image: "/assets/images/projects/project1.png"
+    },
+    {
         id: 3,
         title: "Portfolio Website",
         description: "Website pribadi untuk menampilkan profil, project, dan kontak.",
         tech: ["Next.js", "TailwindCSS"],
         image: "/assets/images/projects/project1.png"
+    },
+    {
+        id: 3,
+        title: "Portfolio ",
+        description: "Website pribadi untuk menampilkan profil, project, dan kontak.",
+        tech: ["Next.js", "TailwindCSS"],
+        image: "/assets/images/projects/project1.png"
     }
+];
+
+
+export const getExperiences = [
+    {
+        year: "2009 - 2011",
+        title: "UI/UX Designer",
+        place: "Los Angeles, CA",
+        desc: "Wireframing, Prototyping, User Testing, Product Design."
+    },
+    {
+        year: "2011 - Present",
+        title: "Creative Director",
+        place: "Miami, FL",
+        desc: "Creative Direction, User Experience, Visual Design, Project Management, Team Leading."
+    },
 ];

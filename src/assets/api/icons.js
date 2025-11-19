@@ -10,7 +10,8 @@ import {
     FaGithubSquare,
     FaLinkedin,
     FaInstagramSquare,
-    FaFacebookSquare
+    FaFacebookSquare,
+    FaGitAlt,
 } from "react-icons/fa";
 
 import { 
@@ -28,6 +29,7 @@ export const icons = {
     react: FaReact,
     python: FaPython,
     java: FaJava,
+    git: FaGitAlt,
     mysql: SiMysql,
     figma: FaFigma,
     corel: SiCoreldraw,

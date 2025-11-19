@@ -1,4 +1,5 @@
 import AboutSection from "../components/AboutSection"
+import ExperienceSection from "../components/ExperienceSection"
 import Footer from "../components/Footer"
 import HeroSection from "../components/HeroSection"
 import Navbar from "../components/Navbar"
@@ -10,6 +11,7 @@ const HomePage = () => {
             <Navbar />
             <HeroSection />
             <AboutSection />
+            <ExperienceSection />
             <ProjectSection />
             <Footer />
         </>

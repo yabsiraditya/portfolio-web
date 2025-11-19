@@ -12,7 +12,7 @@ const AboutSection = () => {
                     <div className="flex flex-col lg:flex-row justify-between h-full">
                         <div className="w-full lg:w-1/2 flex flex-col items-start">
                             <p className="mb-6 text-lg">{getProfile.about}</p>
-                            <div className="bg-black rounded-lg mb-6">
+                            <div className="bg-black rounded-lg mb-6 w-full">
                                 <div className="py-2 px-3 lg:py-3 lg:px-5 bg-white rounded-lg border-2 border-black -translate-x-1 -translate-y-1">
                                     <h1 className="font-bold text-2xl">{getProfile.education.university}</h1>
                                     <p className="font-medium">{getProfile.education.university} | {getProfile.education.year} </p>

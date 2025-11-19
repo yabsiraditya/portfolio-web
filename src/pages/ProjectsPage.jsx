@@ -1,9 +1,13 @@
+import Footer from "../components/Footer"
+import PageProjectsNavbar from "../components/PageProjectsNavbar"
+import PageProjectsSection from "../components/PageProjectsSection"
+
 const ProjectsPage = () => {
     return (
         <>
-            <div className="flex justify-center min-h-screen items-center flex-col">
-                <h1>Project Page</h1>
-            </div>
+            <PageProjectsNavbar />
+            <PageProjectsSection />
+            <Footer />
         </>
     )
 }
