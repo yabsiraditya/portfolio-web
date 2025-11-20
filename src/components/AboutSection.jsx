@@ -15,7 +15,7 @@ const AboutSection = () => {
                             <div className="bg-black rounded-lg mb-6 w-full">
                                 <div className="py-2 px-3 lg:py-3 lg:px-5 bg-white rounded-lg border-2 border-black -translate-x-1 -translate-y-1">
                                     <h1 className="font-bold text-2xl">{getProfile.education.university}</h1>
-                                    <p className="font-medium">{getProfile.education.university} | {getProfile.education.year} </p>
+                                    <p className="font-medium">{getProfile.education.major} | {getProfile.education.year} </p>
                                     <p>GPA: {getProfile.education.gpa}</p>
                                 </div>
                             </div>
