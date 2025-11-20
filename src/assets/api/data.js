@@ -97,6 +97,13 @@ export const getProjects = [
     },
     {
         id: 7,
+        title: "Mountain Map Roblox",
+        description: "A mountain-themed nature exploration map in Roblox, created with Roblox Studio and Lua, featuring a forest environment, basecamp, and an immersive atmosphere.",
+        tech: ["Roblox Studio", "Lua"],
+        image: "/assets/images/projects/project23579.png"
+    },
+    {
+        id: 8,
         title: "Website Portfolio",
         description: "A portfolio website with a Neobrutalism theme using React, TailwindCSS, and Three.js, showcasing projects, 3D interactions, and a modern and unique look.",
         tech: ["React JS", "Tailwind CSS", "Three JS"],
