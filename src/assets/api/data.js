@@ -48,7 +48,7 @@ export const getExperiences = [
         year: "August 2023 - January 2024",
         title: "Web Developer | Hacktiv8 (MSIB)",
         place: "Jakarta, Indonesia",
-        desc: "Saya mempelajari dasar Web Development seperti HTML, CSS, dan JavaScript melalui self-learning dan bimbingan mentor. Saya membangun fitur interaktif dengan DOM, Fetch API, dan AJAX, serta menggunakan Git/GitHub untuk kolaborasi. Saya juga mengikuti live coding dan menyelesaikan tugas individu maupun kelompok sebagai penerapan materi."
+        desc: "I learned web development fundamentals like HTML, CSS, and JavaScript through self-study and mentorship. I built interactive features with the DOM, Fetch API, and AJAX, and used Git/GitHub for collaboration. I also participated in live coding sessions and completed individual and group assignments to apply the material."
     },
 ];
 
